@@ -2,7 +2,7 @@ object Form1: TForm1
   Left = 192
   Top = 124
   Width = 205
-  Height = 97
+  Height = 153
   Caption = 'Hello World'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -21,5 +21,14 @@ object Form1: TForm1
     Caption = 'Hello World'
     TabOrder = 0
     OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 16
+    Top = 48
+    Width = 161
+    Height = 25
+    Caption = 'Close'
+    TabOrder = 1
+    OnClick = Button2Click
   end
 end
